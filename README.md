@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Perl: accessing array elements beyond their defined bounds.  Perl does not throw an exception when you try to access an element outside the array's range; instead, it returns undef, which can lead to difficult-to-debug problems.  The 'bug.pl' file showcases the issue, and 'bugSolution.pl' offers a solution.
